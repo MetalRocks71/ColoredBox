@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+  color: white;
+}
+header {
+  background-color: rgb(162, 0, 255);
+  height: 12.5%;
+}
+
+aside {
+  float: left;
+  width: 25%;
+  height: 75%;
+  background-color: rgb(8, 202, 18);
+}
+
+footer {
+  background-color: indigo;
+  height: 12.5%;
+}
+
+main {
+  background-color: red;
+  width: 75%;
+  height: 75%;
+  display: inline-block;
+}
+/* responsive design*/
+@media (max-width: 780px) {
+  aside,
+  main {
+    width: 50%;
+  }
+}
